@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/MS/Desktop/project/2-2/capstonedesign/AndroidStudioProjects/MyApplication_11/app/src/main/res/layout/activity_main.xml" value="0.37771739130434784" />
+        <entry key="..\:/Users/MS/Desktop/project/2-2/capstonedesign/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_guide.xml" value="0.43568840579710144" />
+        <entry key="..\:/Users/MS/Desktop/project/2-2/capstonedesign/AndroidStudioProjects/MyApplication_11/app/src/main/res/drawable/buttonshape.xml" value="0.49375" />
+        <entry key="..\:/Users/MS/Desktop/project/2-2/capstonedesign/AndroidStudioProjects/MyApplication_11/app/src/main/res/layout/activity_choose.xml" value="0.303125" />
+        <entry key="..\:/Users/MS/Desktop/project/2-2/capstonedesign/AndroidStudioProjects/MyApplication_11/app/src/main/res/layout/activity_guide.xml" value="0.2796875" />
+        <entry key="..\:/Users/MS/Desktop/project/2-2/capstonedesign/AndroidStudioProjects/MyApplication_11/app/src/main/res/layout/activity_log.xml" value="0.303125" />
+        <entry key="..\:/Users/MS/Desktop/project/2-2/capstonedesign/AndroidStudioProjects/MyApplication_11/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/MS/Desktop/project/2-2/capstonedesign/AndroidStudioProjects/MyApplication_11/app/src/main/res/layout/movie_item.xml" value="0.267983789260385" />
       </map>
     </option>

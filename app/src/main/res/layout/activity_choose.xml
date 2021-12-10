@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#EAD3CD">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="영화인"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/rankBtn"
+        android:text="영화 순위 확인하기"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:background="@drawable/buttonshape"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/cgvBtn"
+        android:text="CGV로 예매하러 가기"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:background="@drawable/buttonshape"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/lotBtn"
+        android:textSize="15sp"
+        android:text="롯데시네마로 예매하러 가기"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/megBtn"
+        android:text="메가박스로 예매하러 가기"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:background="@drawable/buttonshape"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/guiBtn"
+        android:text="영화인 사용방법"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:background="@drawable/buttonshape"/>
+
+</LinearLayout>

@@ -5,28 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#EAD3CD">
 
     <EditText
         android:id="@+id/xeditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=bbf80ad0503bafc8e46e058391a20ed7&#38;targetDt=20211001"
-        android:hint="사이트 주소 입력"
+        android:layout_marginTop="10dp"
+        android:text="http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=bbf80ad0503bafc8e46e058391a20ed7&#38;targetDt="
         />
 
     <Button
         android:id="@+id/xbutton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="요청하기"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="순위 지금 바로 알아보기"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
         />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
 
 
 </LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EAD3CD">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="영화인"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="영화인을 찾아주셔서 감사합니다. \n\n영화 순위 확인하기\n이미 입력되어있는 문장 끝에 날짜를 YYYYMMDD 식으로 입력한 후 '지금 바로 알아보기' 버튼을 클릭하면 하단에 스크롤뷰 형식으로 영화 일간 순위가 표시됩니다. 다만 주의할 것은 오늘 날짜는 일간 집계가 완료되지 않아 순위가 표시되지 않으므로 참고 부탁드립니다. \n\nCGV로 예매하러 가기\n버튼을 클릭하면 CGV 홈페이지로 이동됩니다.\n\n롯데시네마로 예매하러 가기\n버튼을 클릭하면 롯데시네마 홈페이지로 이동됩니다.\n\n메가박스로 예매하러 가기\n버튼을 클릭하면 메가박스 홈페이지로 이동됩니다.\n\n영화인 사용방법\n영화인 어플 사용방법이 안내됩니다.\n\n\n영화를 사랑하는 영화인들을 위하여!"
+        android:textSize="15sp"/>
+
+</LinearLayout>
